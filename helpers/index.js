@@ -3,7 +3,7 @@ const cntrlWrapper = require("./cntrlWrapper");
 const handleMangooseError = require("./handleMangooseError");
 
 module.exports = {
-    HttpError,
+  HttpError,
   cntrlWrapper,
   handleMangooseError,
 };
