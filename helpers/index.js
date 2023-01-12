@@ -1,3 +1,9 @@
-const httpError = require("./httpError");
+const HttpError = require("./HttpError");
+const cntrlWrapper = require("./cntrlWrapper");
+const handleMangooseError = require("./handleMangooseError");
 
-module.exports = {httpError};
+module.exports = {
+  HttpError,
+  cntrlWrapper,
+  handleMangooseError,
+};
